@@ -10,6 +10,18 @@ LogExport is a Flutter plugin that exports log messages to a log file.
 
 You must initialize LogExport before using it.
 
+## Add Plugin
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  log_export:
+    git:
+      url: https://github.com/scadasystems/Log-Export.git
+```
+
 ## Initialization
 
 ```dart

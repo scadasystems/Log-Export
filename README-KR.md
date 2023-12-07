@@ -4,6 +4,18 @@ LogExport는 로그 메시지를 로그 파일로 내보내는 Flutter Plugin �
 
 LogExport를 사용하기 전에 초기화해야 합니다.
 
+## 플러그인 추가
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  log_export:
+    git:
+      url: https://github.com/scadasystems/Log-Export.git
+```
+
 ## 초기화
 
 ```dart
